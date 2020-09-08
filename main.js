@@ -146,7 +146,7 @@ document.onkeydown = function(e){
   if(e.keyCode == 16)keyb.BBOTTON = true;
 
   if(e.keyCode == 65)field.scx--;
-  if(e.keyCode == 68)field.scx++;
+  if(e.keyCode == 68)field.scx+8;
 }
 //キーボードが離された時に呼ばれる
 document.onkeyup = function(e){
